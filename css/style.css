@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #f5fcff; 
+    position: relative;
+}
+.deer {
+    background-image: url("https://i.ibb.co/n1syhLf/deer.png");
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 50%;
+    margin-left: -250px;      
+}
+.sun {    
+    background-image: url("https://i.ibb.co/9GnpQPB/sun.png");
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+}
+.cloud {
+    background-image: url("https://i.ibb.co/X5gjjCn/cloud.png");
+    height: 200px;
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    position: absolute;    
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+.grass {
+    background-image: url("https://i.ibb.co/MkXn1gV/grass.png");
+    height: 150px;
+    background-repeat: repeat-x;
+    background-size: auto 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;    
+}
+/*
+body {
+    height: 100vh;
+    margin: 0;    
+    background: url("https://i.ibb.co/X5gjjCn/cloud.png") center top 50px / auto 200px repeat-x,
+                url("https://i.ibb.co/9GnpQPB/sun.png") right top / auto 200px no-repeat,
+                url("https://i.ibb.co/MkXn1gV/grass.png") center bottom / auto 150px repeat-x,
+                url("https://i.ibb.co/n1syhLf/deer.png") center bottom / auto 500px no-repeat,
+                #f5fcff; 
+}
+*/
